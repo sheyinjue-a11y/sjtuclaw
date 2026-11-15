@@ -1,0 +1,241 @@
+{
+  "repository": "sheyinjue-a11y/sjtuclaw",
+  "tag": "archive-2026-11-14",
+  "status": "prepared-not-uploaded",
+  "files": [
+    {
+      "path": "archive/submission/SJTUClaw-�ύ����/¼���ļ�/20260807-1515-36.1375486.mp4",
+      "sha256": "c3106d2f3cafd75dadeeb49657beb54a30d8d7cbcd0011e7ee91de861078d99c",
+      "size": 107509095,
+      "asset": "videos.zip",
+      "entry": "objects/c3106d2f3cafd75dadeeb49657beb54a30d8d7cbcd0011e7ee91de861078d99c.mp4"
+    },
+    {
+      "path": "private-backup/sjtuclaw-local-data.dpapi",
+      "sha256": "35ea9e58839c047338accbb5f9b2001da436183ad294cb535172cf2285ac8232",
+      "size": 27583894,
+      "asset": "private-local-data.zip",
+      "entry": "objects/35ea9e58839c047338accbb5f9b2001da436183ad294cb535172cf2285ac8232.dpapi"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/LICENSE",
+      "sha256": "f2c6c602815669d292889e5be8c802f2ed950653b77999b1584e8e6aed25d040",
+      "size": 1084,
+      "asset": "tokenizer.zip",
+      "entry": "objects/f2c6c602815669d292889e5be8c802f2ed950653b77999b1584e8e6aed25d040"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/tokenizer.json",
+      "sha256": "8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf",
+      "size": 6367146,
+      "asset": "tokenizer.zip",
+      "entry": "objects/8f9f37ca37fdc4f5fd36d5cf4d3b0e8392edb4e894fd10cc0d70b4957c8633cf.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/tokenizer_config.json",
+      "sha256": "6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547",
+      "size": 801,
+      "asset": "tokenizer.zip",
+      "entry": "objects/6ac8c8dc065ed118161d02dd532749ae3f52c243deac27872134fae2f50d8547.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/encoding_dsv4.py",
+      "sha256": "bdbd57c132a1b3725042323d02b98b9d1df28e5f388f134399555d041f5055e0",
+      "size": 27908,
+      "asset": "tokenizer.zip",
+      "entry": "objects/bdbd57c132a1b3725042323d02b98b9d1df28e5f388f134399555d041f5055e0.py"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/README.md",
+      "sha256": "605363e9e43ee91beba88ea96c7806ce6ecdb2924e481459c9d16e1526470c10",
+      "size": 8118,
+      "asset": "tokenizer.zip",
+      "entry": "objects/605363e9e43ee91beba88ea96c7806ce6ecdb2924e481459c9d16e1526470c10.md"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/test_encoding_dsv4.py",
+      "sha256": "c2bc54c4c934f5c64096bd9c555efa7d1ddf179c1eff58f01ceb2dcd60adcf28",
+      "size": 3741,
+      "asset": "tokenizer.zip",
+      "entry": "objects/c2bc54c4c934f5c64096bd9c555efa7d1ddf179c1eff58f01ceb2dcd60adcf28.py"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/.gitignore",
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "size": 1,
+      "asset": "tokenizer.zip",
+      "entry": "objects/684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/LICENSE.metadata",
+      "sha256": "fb39581448fa1bbe6eb26783c65dce209137487e76853c99c22ac6811e0e0077",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/fb39581448fa1bbe6eb26783c65dce209137487e76853c99c22ac6811e0e0077.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/tokenizer.json.metadata",
+      "sha256": "ed5e1cac53023ea04631689c430d3425a0c9ab09d64bbbabef5787195c810d36",
+      "size": 103,
+      "asset": "tokenizer.zip",
+      "entry": "objects/ed5e1cac53023ea04631689c430d3425a0c9ab09d64bbbabef5787195c810d36.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/tokenizer_config.json.metadata",
+      "sha256": "a299c4e8abbbbfe45f6550a197186ce8fc815a5634b40c10a8105a48b24fd5c2",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/a299c4e8abbbbfe45f6550a197186ce8fc815a5634b40c10a8105a48b24fd5c2.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/encoding_dsv4.py.metadata",
+      "sha256": "2ebe84aa4d0d54ad9e5c4fc81d906626f8b1a793c64a9cb939111076408a439a",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/2ebe84aa4d0d54ad9e5c4fc81d906626f8b1a793c64a9cb939111076408a439a.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/README.md.metadata",
+      "sha256": "8480311942b4ae20df3d8d03efa0167134b2434b7f2e3cf2a72db49b59bd4751",
+      "size": 103,
+      "asset": "tokenizer.zip",
+      "entry": "objects/8480311942b4ae20df3d8d03efa0167134b2434b7f2e3cf2a72db49b59bd4751.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/test_encoding_dsv4.py.metadata",
+      "sha256": "353edabe2786c4dc0c08adcbb457620cd871991d83f2691b5e17859512c2b187",
+      "size": 103,
+      "asset": "tokenizer.zip",
+      "entry": "objects/353edabe2786c4dc0c08adcbb457620cd871991d83f2691b5e17859512c2b187.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_input_1.json.metadata",
+      "sha256": "80f19d164a74051f27ec3252b7ccc2926da770cc6a64ef68039995ca5f1aec52",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/80f19d164a74051f27ec3252b7ccc2926da770cc6a64ef68039995ca5f1aec52.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_input_2.json.metadata",
+      "sha256": "6c17e513ca91daee2184370144c89191f06b7fa93ed24f4bed3757f89e790446",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/6c17e513ca91daee2184370144c89191f06b7fa93ed24f4bed3757f89e790446.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_input_3.json.metadata",
+      "sha256": "a61cd632ddd53f1bde8505862efa7155d6f614297605f9f074a3002962e10b70",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/a61cd632ddd53f1bde8505862efa7155d6f614297605f9f074a3002962e10b70.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_input_4.json.metadata",
+      "sha256": "161199e9d74afb5b4df78030ae8a958693ff7904a1f244f9e37cf2dc88644e0d",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/161199e9d74afb5b4df78030ae8a958693ff7904a1f244f9e37cf2dc88644e0d.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_output_1.txt.metadata",
+      "sha256": "a1007b83ecf0342a7c2f15bcd84b69c0f236b7f3b74830167fe8feb78e6b21b0",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/a1007b83ecf0342a7c2f15bcd84b69c0f236b7f3b74830167fe8feb78e6b21b0.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_output_2.txt.metadata",
+      "sha256": "aa1da05557c8453f15197601f87b5d26431fe27bdf2327beaca59d5fe1598f30",
+      "size": 103,
+      "asset": "tokenizer.zip",
+      "entry": "objects/aa1da05557c8453f15197601f87b5d26431fe27bdf2327beaca59d5fe1598f30.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_output_3.txt.metadata",
+      "sha256": "b129dd6d0b7ae9beb66128f78521fb66cc3e43b555c378da3ba7c9c2c28fad16",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/b129dd6d0b7ae9beb66128f78521fb66cc3e43b555c378da3ba7c9c2c28fad16.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/.cache/huggingface/download/encoding/tests/test_output_4.txt.metadata",
+      "sha256": "15a8efb3dfcf02e237d4b4392f23695d20ec8b562a220c9e422317ff1b018f69",
+      "size": 104,
+      "asset": "tokenizer.zip",
+      "entry": "objects/15a8efb3dfcf02e237d4b4392f23695d20ec8b562a220c9e422317ff1b018f69.metadata"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_input_1.json",
+      "sha256": "10e0c074c977c3a80daab758af28219c6b1c2bd7f3f5cf2890c84b361cc32897",
+      "size": 2748,
+      "asset": "tokenizer.zip",
+      "entry": "objects/10e0c074c977c3a80daab758af28219c6b1c2bd7f3f5cf2890c84b361cc32897.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_input_2.json",
+      "sha256": "c44ae0db20fafff38a6021e8068d7ed6e28605d76cafd20be80b03398509f447",
+      "size": 526,
+      "asset": "tokenizer.zip",
+      "entry": "objects/c44ae0db20fafff38a6021e8068d7ed6e28605d76cafd20be80b03398509f447.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_input_3.json",
+      "sha256": "37bf8ef95e0411ea5f411be0b02fbafec7363438b6ccefddca0c52ec9aeaf69a",
+      "size": 4546,
+      "asset": "tokenizer.zip",
+      "entry": "objects/37bf8ef95e0411ea5f411be0b02fbafec7363438b6ccefddca0c52ec9aeaf69a.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_input_4.json",
+      "sha256": "c45bbd0a1b7a2f75033d8db4ba74ee5b7653bd01114045a52f79d3b387663465",
+      "size": 2730,
+      "asset": "tokenizer.zip",
+      "entry": "objects/c45bbd0a1b7a2f75033d8db4ba74ee5b7653bd01114045a52f79d3b387663465.json"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_output_1.txt",
+      "sha256": "9b366d9d2eac842a6e890594aac0b58648e5623717202b33497afadf03e26540",
+      "size": 2390,
+      "asset": "tokenizer.zip",
+      "entry": "objects/9b366d9d2eac842a6e890594aac0b58648e5623717202b33497afadf03e26540.txt"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_output_2.txt",
+      "sha256": "ca66b01a1ac3a204bb032c928fb607d4877171e998a50f7f89f39fa821b75665",
+      "size": 342,
+      "asset": "tokenizer.zip",
+      "entry": "objects/ca66b01a1ac3a204bb032c928fb607d4877171e998a50f7f89f39fa821b75665.txt"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_output_3.txt",
+      "sha256": "b3b1cd8748b7b90d3c6be6da3f786f12e4d70be073bd445ea162dfad4dc01a64",
+      "size": 3313,
+      "asset": "tokenizer.zip",
+      "entry": "objects/b3b1cd8748b7b90d3c6be6da3f786f12e4d70be073bd445ea162dfad4dc01a64.txt"
+    },
+    {
+      "path": "vendor/deepseek-v4-flash-tokenizer/encoding/tests/test_output_4.txt",
+      "sha256": "60e1643840ba9e4aeede450feb7b0498fa66ee24e4a939d48855ce04ec6fc375",
+      "size": 2552,
+      "asset": "tokenizer.zip",
+      "entry": "objects/60e1643840ba9e4aeede450feb7b0498fa66ee24e4a939d48855ce04ec6fc375.txt"
+    }
+  ],
+  "assets": [
+    {
+      "asset": "videos.zip",
+      "size": 98274963,
+      "sha256": "1966042093ed75d59bd97c8f8a95b3d84ca22c949f934b2d19c3fd13fcbf30f9"
+    },
+    {
+      "asset": "private-local-data.zip",
+      "size": 27592538,
+      "sha256": "3fac4e2729a3a2abfd07102d5d406306deecb0083a733b546a1cf1e73b8b0c92"
+    },
+    {
+      "asset": "tokenizer.zip",
+      "size": 2250110,
+      "sha256": "db38fe4be03b14936b67fdd461dfa297f7fe427c22896a6e2959dcfd5b94a160"
+    }
+  ]
+}

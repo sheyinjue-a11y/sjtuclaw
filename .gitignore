@@ -1,0 +1,33 @@
+# Local environment files may contain secrets.
+.env
+.env.*
+!.env.example
+
+# Runtime logs.
+*.log
+
+# Python environments and caches.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+web/dist-desktop/
+
+# Local SJTUClaw runtime data.
+.sjtuclaw/
+
+# Pinned tokenizer artifacts fetched for offline use.
+vendor/deepseek-v4-flash-tokenizer/
+
+# Local Superpowers visual companion state.
+.superpowers/
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini

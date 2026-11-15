@@ -1,0 +1,148 @@
+html,
+body,
+#pet-root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+  pointer-events: none;
+}
+
+.pet {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+}
+
+.pet:active {
+  cursor: grabbing;
+}
+
+.pet-sprite {
+  position: absolute;
+  top: 0;
+  left: var(--pet-sprite-left);
+  width: 96px;
+  height: 104px;
+  background-image: url("/pets/varka/spritesheet.webp");
+  background-size: 768px 1144px;
+  background-repeat: no-repeat;
+  cursor: grab;
+  pointer-events: auto;
+}
+
+.pet-sprite:active { cursor: grabbing; }
+
+.pet-sprite--frame-0 { background-position-x: 0; }
+.pet-sprite--frame-1 { background-position-x: -96px; }
+.pet-sprite--frame-2 { background-position-x: -192px; }
+.pet-sprite--frame-3 { background-position-x: -288px; }
+.pet-sprite--frame-4 { background-position-x: -384px; }
+.pet-sprite--frame-5 { background-position-x: -480px; }
+.pet-sprite--frame-6 { background-position-x: -576px; }
+.pet-sprite--frame-7 { background-position-x: -672px; }
+
+.pet-sprite--row-0 { background-position-y: 0; }
+.pet-sprite--row-1 { background-position-y: -104px; }
+.pet-sprite--row-2 { background-position-y: -208px; }
+.pet-sprite--row-3 { background-position-y: -312px; }
+.pet-sprite--row-5 { background-position-y: -520px; }
+.pet-sprite--row-6 { background-position-y: -624px; }
+.pet-sprite--row-7 { background-position-y: -728px; }
+.pet-sprite--row-8 { background-position-y: -832px; }
+
+.quick-chat {
+  position: absolute;
+  top: 32px;
+  left: var(--quick-chat-left);
+  width: 344px;
+  height: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  color: rgba(255, 255, 255, 0.92);
+  font: 12px/1.2 "Microsoft YaHei", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 20px;
+  background: rgba(22, 24, 29, 0.9);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  pointer-events: auto;
+}
+
+.quick-chat__session,
+.quick-chat__connection {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.quick-chat__session { flex: 0 1 88px; }
+.quick-chat__connection { color: rgba(255, 255, 255, 0.58); }
+
+.quick-chat input {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 20px;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.quick-chat input:disabled { color: rgba(255, 255, 255, 0.42); }
+
+.pet-send-error {
+  position: absolute;
+  top: 76px;
+  left: var(--quick-chat-left);
+  margin: 0;
+  color: rgba(255, 218, 218, 0.92);
+  font: 12px/1.2 "Microsoft YaHei", sans-serif;
+  pointer-events: none;
+}
+
+.pet-reminder {
+  position: absolute;
+  top: 112px;
+  left: var(--pet-reminder-left);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: max-content;
+  max-width: 220px;
+  padding: 6px 8px;
+  color: rgba(255, 255, 255, 0.92);
+  font: 12px/1.3 "Microsoft YaHei", sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  background: rgba(22, 24, 29, 0.9);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+  pointer-events: none;
+}
+
+.pet-reminder button {
+  color: inherit;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  pointer-events: auto;
+}
+
+.pet-startup-error {
+  padding: 8px;
+  color: rgba(255, 255, 255, 0.92);
+  font: 12px/1.3 "Microsoft YaHei", sans-serif;
+  border-radius: 8px;
+  background: rgba(22, 24, 29, 0.9);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet-sprite { transition: none; }
+}

@@ -1,0 +1,1 @@
+"""Packaged stable prompt resources."""

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper and Mind Map Report PPT"
+  short_description: "Build faithful, verified academic slides from a paper and mind map"
+  default_prompt: "Use $paper-mindmap-report-ppt to turn my paper PDF and mind map into a faithful, verified academic presentation."

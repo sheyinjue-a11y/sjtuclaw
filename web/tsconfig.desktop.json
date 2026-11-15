@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "desktop",
+    "outDir": "dist-desktop",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": [
+    "desktop/main.ts",
+    "desktop/preload.cts",
+    "desktop/chatWindow.ts",
+    "desktop/mouseEvents.ts",
+    "desktop/windowGeometry.ts"
+  ],
+  "exclude": ["desktop/**/*.test.ts"]
+}
